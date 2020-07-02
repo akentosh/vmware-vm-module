@@ -3,8 +3,7 @@ module "example-server-linuxvm" {
   version       = "1.3.0"
   vmtemp        = "UbuntuTemplate"
   instances     = 1
-  user          = "akentosh"
-  password      = "t3mppass"
+  is_windows_image = "false"
   vmname        = "akentosh-vm-from-module"
   vmrp          = "Demo-ResourcePool"
   network_cards = "VM Network"
