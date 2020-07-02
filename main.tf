@@ -4,7 +4,7 @@ module "virtualmachine" {
 
   cpu = 1
   ipv4_addr = "10.100.0.89"
-  mem = 1024
-  name = "adam-PMR"
-  tags = "adam-vsphere-linux-dev"
+  mem = 2048
+  name = "adam-module"
+  tags = "adam-test"
 }
